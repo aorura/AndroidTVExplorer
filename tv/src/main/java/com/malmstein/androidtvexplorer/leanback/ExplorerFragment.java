@@ -105,6 +105,7 @@ public class ExplorerFragment extends BrowseFragment implements LoaderManager.Lo
         return new OnItemViewSelectedListener() {
             @Override
             public void onItemSelected(Presenter.ViewHolder viewHolder, Object item, RowPresenter.ViewHolder viewHolder2, Row row) {
+                Toast.makeText(getActivity(), "OnItemViewSelectedListener", Toast.LENGTH_LONG).show();
                 if (item instanceof Video) {
                     mBackgroundURI = ((Video) item).getBackgroundImageURI();
                     startBackgroundTimer();
@@ -117,6 +118,7 @@ public class ExplorerFragment extends BrowseFragment implements LoaderManager.Lo
         return new OnItemViewClickedListener() {
             @Override
             public void onItemClicked(Presenter.ViewHolder viewHolder, Object item, RowPresenter.ViewHolder viewHolder2, Row row) {
+                Toast.makeText(getActivity(), "OnItemViewClickedListener", Toast.LENGTH_LONG).show();
                 if (item instanceof Video) {
                     Video video = (Video) item;
                     Intent videoIntent = new Intent(getActivity(), VideoDetailsActivity.class);
