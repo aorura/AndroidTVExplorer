@@ -129,7 +129,7 @@ public class ExplorerFragmentForPhoto extends BrowseFragment implements LoaderMa
         return new OnItemViewClickedListener() {
             @Override
             public void onItemClicked(Presenter.ViewHolder viewHolder, Object item, RowPresenter.ViewHolder viewHolder2, Row row) {
-                Toast.makeText(getActivity(), "OnItemViewClickedListener", Toast.LENGTH_LONG).show();
+//                Toast.makeText(getActivity(), "OnItemViewClickedListener", Toast.LENGTH_LONG).show();
 //                if (item instanceof Photo) {
 //                    Photo photo = (Photo) item;
 //                    Intent videoIntent = new Intent(getActivity(), VideoDetailsActivity.class);
@@ -257,7 +257,8 @@ public class ExplorerFragmentForPhoto extends BrowseFragment implements LoaderMa
         Query query = new Query.Builder()
                 .addFilter(Filters.or(
                         Filters.eq(SearchableField.MIME_TYPE, "image/png"),
-                        Filters.eq(SearchableField.MIME_TYPE, "image/jpeg")))
+                        Filters.eq(SearchableField.MIME_TYPE, "image/jpeg"),
+                        Filters.eq(SearchableField.MIME_TYPE, "image/jpg")))
                 .build();
 
         Drive.DriveApi.query(getGoogleApiClient(), query)
