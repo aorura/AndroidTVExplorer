@@ -1,5 +1,9 @@
 package com.malmstein.androidtvexplorer.photo;
 
+import android.graphics.Bitmap;
+
+import com.google.android.gms.drive.DriveId;
+
 import java.io.Serializable;
 
 /**
@@ -8,8 +12,25 @@ import java.io.Serializable;
 public class Photo implements Serializable {
     static final long serialVersionUID = 727566175075961321L;
 
-    private String driveId;
-    private String resourceId;
+    DriveId driveId;
+    Bitmap bitmap;
+    String title;
 
-    public Photo() {}
+    public Photo(DriveId driveId, String title, Bitmap bitmap) {
+        this.driveId = driveId;
+        this.title = title;
+        this.bitmap = bitmap;
+    }
+
+    public DriveId getDriveId() {
+        return this.driveId;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+    public Bitmap getBitmap() {
+        return this.bitmap;
+    }
 }

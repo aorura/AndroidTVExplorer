@@ -70,7 +70,6 @@ public class ExplorerFragment extends BrowseFragment implements LoaderManager.Lo
     }
 
     private void prepareBackgroundManager() {
-
         BackgroundManager backgroundManager = BackgroundManager.getInstance(getActivity());
         backgroundManager.attach(getActivity().getWindow());
         mBackgroundTarget = new PicassoBackgroundManagerTarget(backgroundManager);
