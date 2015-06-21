@@ -1,4 +1,4 @@
-package com.malmstein.androidtvexplorer;
+package com.aorura.androidtvexplorer;
 
 import android.app.Activity;
 import android.os.Bundle;
