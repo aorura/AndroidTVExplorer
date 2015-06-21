@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.leanback;
+package com.aorura.familyphoto.leanback;
 
 import android.app.Activity;
 import android.app.LoaderManager;
@@ -35,11 +35,11 @@ import com.google.android.gms.drive.MetadataBuffer;
 import com.google.android.gms.drive.query.Filters;
 import com.google.android.gms.drive.query.Query;
 import com.google.android.gms.drive.query.SearchableField;
-import com.aorura.androidtvexplorer.R;
-import com.aorura.androidtvexplorer.photo.Photo;
-import com.aorura.androidtvexplorer.photo.PhotoItemLoader;
-import com.aorura.androidtvexplorer.presenters.GridItemPresenter;
-import com.aorura.androidtvexplorer.presenters.PicassoBackgroundManagerTarget;
+import com.aorura.familyphoto.R;
+import com.aorura.familyphoto.photo.Photo;
+import com.aorura.familyphoto.photo.PhotoItemLoader;
+import com.aorura.familyphoto.presenters.GridItemPresenter;
+import com.aorura.familyphoto.presenters.PicassoBackgroundManagerTarget;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 

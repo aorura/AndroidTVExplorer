@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.presenters;
+package com.aorura.familyphoto.presenters;
 
 import android.content.Context;
 

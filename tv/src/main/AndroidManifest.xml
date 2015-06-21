@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aorura.androidtvexplorer">
+    package="com.aorura.familyphoto">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.aorura.androidtvexplorer.leanback.ExplorerActivity"
+            android:name="com.aorura.familyphoto.leanback.ExplorerActivity"
             android:label="@string/app_name"
             android:logo="@drawable/app_icon_quantum"
             android:screenOrientation="landscape">
@@ -20,15 +20,15 @@
         </activity>
 
         <activity
-            android:name="com.aorura.androidtvexplorer.leanback.VideoDetailsActivity"
+            android:name="com.aorura.familyphoto.leanback.VideoDetailsActivity"
             android:exported="true" />
 
         <activity
-            android:name="com.aorura.androidtvexplorer.leanback.PlayerActivity"
+            android:name="com.aorura.familyphoto.leanback.PlayerActivity"
             android:exported="true" />
 
         <receiver
-            android:name="com.aorura.androidtvexplorer.leanback.recommendations.RecommendationsReceiver"
+            android:name="com.aorura.familyphoto.leanback.recommendations.RecommendationsReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -37,7 +37,7 @@
         </receiver>
 
         <service
-            android:name="com.aorura.androidtvexplorer.leanback.recommendations.UpdateRecommendationsService"
+            android:name="com.aorura.familyphoto.leanback.recommendations.UpdateRecommendationsService"
             android:enabled="true" />
 
     </application>

@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.presenters;
+package com.aorura.familyphoto.presenters;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,8 +10,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.aorura.androidtvexplorer.R;
-import com.aorura.androidtvexplorer.video.Video;
+import com.aorura.familyphoto.R;
+import com.aorura.familyphoto.video.Video;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 

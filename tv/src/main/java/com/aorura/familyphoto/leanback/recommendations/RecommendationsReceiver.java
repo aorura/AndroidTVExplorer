@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.leanback.recommendations;
+package com.aorura.familyphoto.leanback.recommendations;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;

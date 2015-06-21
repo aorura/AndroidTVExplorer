@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.photo;
+package com.aorura.familyphoto.photo;
 
 import android.graphics.Bitmap;
 

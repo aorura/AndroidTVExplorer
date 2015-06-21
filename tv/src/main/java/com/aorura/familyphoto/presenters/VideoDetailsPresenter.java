@@ -1,8 +1,8 @@
-package com.aorura.androidtvexplorer.presenters;
+package com.aorura.familyphoto.presenters;
 
 import android.support.v17.leanback.widget.AbstractDetailsDescriptionPresenter;
 
-import com.aorura.androidtvexplorer.video.Video;
+import com.aorura.familyphoto.video.Video;
 
 public class VideoDetailsPresenter extends AbstractDetailsDescriptionPresenter {
 

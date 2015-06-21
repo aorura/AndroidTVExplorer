@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.leanback;
+package com.aorura.familyphoto.leanback;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -16,8 +16,8 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.VideoView;
 
-import com.aorura.androidtvexplorer.R;
-import com.aorura.androidtvexplorer.video.Video;
+import com.aorura.familyphoto.R;
+import com.aorura.familyphoto.video.Video;
 
 import java.util.Locale;
 import java.util.Timer;

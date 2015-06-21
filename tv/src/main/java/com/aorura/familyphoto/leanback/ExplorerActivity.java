@@ -1,9 +1,9 @@
-package com.aorura.androidtvexplorer.leanback;
+package com.aorura.familyphoto.leanback;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.aorura.androidtvexplorer.R;
+import com.aorura.familyphoto.R;
 
 public class ExplorerActivity extends Activity {
 

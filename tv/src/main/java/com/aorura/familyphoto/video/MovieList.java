@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.video;
+package com.aorura.familyphoto.video;
 
 import java.util.ArrayList;
 import java.util.List;

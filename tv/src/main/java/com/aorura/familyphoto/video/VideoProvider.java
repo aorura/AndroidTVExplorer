@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.aorura.androidtvexplorer.video;
+package com.aorura.familyphoto.video;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.aorura.androidtvexplorer.R;
+import com.aorura.familyphoto.R;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;

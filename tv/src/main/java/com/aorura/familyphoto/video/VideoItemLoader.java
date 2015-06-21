@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aorura.androidtvexplorer.video;
+package com.aorura.familyphoto.video;
 
 import android.content.AsyncTaskLoader;
 import android.content.Context;

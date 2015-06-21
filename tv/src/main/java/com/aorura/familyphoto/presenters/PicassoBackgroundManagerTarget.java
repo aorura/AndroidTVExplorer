@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.presenters;
+package com.aorura.familyphoto.presenters;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;

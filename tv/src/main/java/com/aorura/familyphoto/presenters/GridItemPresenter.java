@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.presenters;
+package com.aorura.familyphoto.presenters;
 
 import android.content.Context;
 import android.support.v17.leanback.widget.Presenter;
@@ -8,8 +8,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.aorura.androidtvexplorer.R;
-import com.aorura.androidtvexplorer.photo.Photo;
+import com.aorura.familyphoto.R;
+import com.aorura.familyphoto.photo.Photo;
 
 public class GridItemPresenter extends Presenter {
 

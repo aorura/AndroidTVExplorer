@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.video;
+package com.aorura.familyphoto.video;
 
 import android.util.Log;
 

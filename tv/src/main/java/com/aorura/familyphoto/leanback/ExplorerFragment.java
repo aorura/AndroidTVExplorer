@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.leanback;
+package com.aorura.familyphoto.leanback;
 
 import android.app.LoaderManager;
 import android.content.Intent;
@@ -22,13 +22,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.aorura.androidtvexplorer.R;
-import com.aorura.androidtvexplorer.presenters.CardPresenter;
-import com.aorura.androidtvexplorer.presenters.GridItemPresenter;
-import com.aorura.androidtvexplorer.presenters.PicassoBackgroundManagerTarget;
-import com.aorura.androidtvexplorer.video.Video;
-import com.aorura.androidtvexplorer.video.VideoItemLoader;
-import com.aorura.androidtvexplorer.video.VideoProvider;
+import com.aorura.familyphoto.R;
+import com.aorura.familyphoto.presenters.CardPresenter;
+import com.aorura.familyphoto.presenters.GridItemPresenter;
+import com.aorura.familyphoto.presenters.PicassoBackgroundManagerTarget;
+import com.aorura.familyphoto.video.Video;
+import com.aorura.familyphoto.video.VideoItemLoader;
+import com.aorura.familyphoto.video.VideoProvider;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 

@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer.leanback.recommendations;
+package com.aorura.familyphoto.leanback.recommendations;
 
 import android.app.IntentService;
 import android.app.PendingIntent;
@@ -6,10 +6,10 @@ import android.app.TaskStackBuilder;
 import android.content.Intent;
 import android.util.Log;
 
-import com.aorura.androidtvexplorer.R;
-import com.aorura.androidtvexplorer.leanback.VideoDetailsActivity;
-import com.aorura.androidtvexplorer.video.Video;
-import com.aorura.androidtvexplorer.video.VideoProvider;
+import com.aorura.familyphoto.R;
+import com.aorura.familyphoto.leanback.VideoDetailsActivity;
+import com.aorura.familyphoto.video.Video;
+import com.aorura.familyphoto.video.VideoProvider;
 
 import java.io.IOException;
 import java.util.HashMap;
