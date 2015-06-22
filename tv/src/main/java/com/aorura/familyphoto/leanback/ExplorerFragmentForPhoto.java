@@ -118,8 +118,7 @@ public class ExplorerFragmentForPhoto extends BrowseFragment implements LoaderMa
             public void onItemSelected(Presenter.ViewHolder viewHolder, Object item, RowPresenter.ViewHolder viewHolder2, Row row) {
                 if (item instanceof Photo) {
 //                    mBackgroundURI = ((Video) item).getBackgroundImageURI();
-//                    startBackgroundTimer();
-                    //todo
+//                    startBackgroundTimer()
                 }
             }
         };
