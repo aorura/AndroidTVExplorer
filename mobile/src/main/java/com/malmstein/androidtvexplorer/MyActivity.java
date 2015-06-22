@@ -1,4 +1,4 @@
-package com.aorura.androidtvexplorer;
+package com.aorura.familyphoto;
 
 import android.app.Activity;
 import android.os.Bundle;
