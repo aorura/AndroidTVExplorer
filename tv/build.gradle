@@ -6,7 +6,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.malmstein.androidtvexplorer"
+        applicationId "com.aorura.familyphoto"
         minSdkVersion 21
         targetSdkVersion 21
         versionCode 1
