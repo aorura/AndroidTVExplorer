@@ -106,8 +106,13 @@ public class ExplorerFragmentForPhoto extends BrowseFragment implements LoaderMa
         setOnSearchClickedListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "Implement your own in-app search", Toast.LENGTH_LONG)
-                        .show();
+                if (metaDatas != null) {
+                    queryFromDrive();
+                    Toast.makeText(getActivity(), "Loading...", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(getActivity(), "Drive is not connected...", Toast.LENGTH_LONG).show();
+                }
+
             }
         });
     }
@@ -118,8 +123,7 @@ public class ExplorerFragmentForPhoto extends BrowseFragment implements LoaderMa
             public void onItemSelected(Presenter.ViewHolder viewHolder, Object item, RowPresenter.ViewHolder viewHolder2, Row row) {
                 if (item instanceof Photo) {
 //                    mBackgroundURI = ((Video) item).getBackgroundImageURI();
-//                    startBackgroundTimer();
-                    //todo
+//                    startBackgroundTimer()
                 }
             }
         };
@@ -254,6 +258,19 @@ public class ExplorerFragmentForPhoto extends BrowseFragment implements LoaderMa
     @Override
     public void onConnected(Bundle bundle) {
         Log.i(TAG, "GoogleApiClient connected");
+//        Query query = new Query.Builder()
+//                .addFilter(Filters.or(
+//                        Filters.eq(SearchableField.MIME_TYPE, "image/png"),
+//                        Filters.eq(SearchableField.MIME_TYPE, "image/jpeg"),
+//                        Filters.eq(SearchableField.MIME_TYPE, "image/jpg")))
+//                .build();
+//
+//        Drive.DriveApi.query(getGoogleApiClient(), query)
+//                .setResultCallback(metadataCallback);
+        queryFromDrive();
+    }
+
+    protected void queryFromDrive() {
         Query query = new Query.Builder()
                 .addFilter(Filters.or(
                         Filters.eq(SearchableField.MIME_TYPE, "image/png"),
