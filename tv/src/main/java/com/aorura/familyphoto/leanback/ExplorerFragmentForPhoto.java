@@ -133,15 +133,15 @@ public class ExplorerFragmentForPhoto extends BrowseFragment implements LoaderMa
         return new OnItemViewClickedListener() {
             @Override
             public void onItemClicked(Presenter.ViewHolder viewHolder, Object item, RowPresenter.ViewHolder viewHolder2, Row row) {
-//                Toast.makeText(getActivity(), "OnItemViewClickedListener", Toast.LENGTH_LONG).show();
-//                if (item instanceof Photo) {
-//                    Photo photo = (Photo) item;
-//                    Intent videoIntent = new Intent(getActivity(), VideoDetailsActivity.class);
-//                    videoIntent.putExtra(getResources().getString(R.string.video), photo);
-//                    startActivity(videoIntent);
-//                } else if (item instanceof String) {
-//                    showMessage((String) item);
-//                }
+                Toast.makeText(getActivity(), "OnItemViewClickedListener", Toast.LENGTH_LONG).show();
+                if (item instanceof Photo) {
+                    Photo photo = (Photo) item;
+                    Intent photoIntent = new Intent(getActivity(), PhotoDetailsActivity.class);
+                    photoIntent.putExtra(getResources().getString(R.string.photo), photo.getBitmap());
+                    startActivity(photoIntent);
+                } else if (item instanceof String) {
+                    showMessage((String) item);
+                }
             }
         };
     }

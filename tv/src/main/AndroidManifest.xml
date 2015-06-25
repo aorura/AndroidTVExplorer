@@ -24,6 +24,10 @@
             android:exported="true" />
 
         <activity
+            android:name="com.aorura.familyphoto.leanback.PhotoDetailsActivity"
+            android:exported="true" />
+
+        <activity
             android:name="com.aorura.familyphoto.leanback.PlayerActivity"
             android:exported="true" />
 
