@@ -39,5 +39,4 @@ public class PhotoDetailsFragment extends Fragment {
             imageview.setImageBitmap(selectedPhoto);
         }
     }
-
 }
